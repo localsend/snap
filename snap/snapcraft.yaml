@@ -37,5 +37,9 @@ parts:
 apps:
   localsend-uno:
     command: localsend_app
-    extensions: [ gnome ]
-    plugs: [ home, network, network-manager ]
+    extensions: [gnome]
+    plugs:
+      - home
+      - removable-media # no auto-connect
+      - network
+      - network-manager # no auto-connect, enabling fixes AppArmor denials in log

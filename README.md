@@ -1,6 +1,8 @@
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/localsend-uno)
 
-Note: This is an unofficial repackaging and is not endorsed by the upstream project. The upstream Localsend git can be found [here](https://github.com/localsend/localsend).
+Note: This is an unofficial repackaging and is not endorsed by the upstream project. The upstream Localsend project can be found [here](https://github.com/localsend/localsend).
+
+## Want to build the snap yourself?
 
 Before you begin
 - Ensure you have snapd installed

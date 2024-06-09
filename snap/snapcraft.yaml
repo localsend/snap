@@ -4,9 +4,7 @@ version: 1.14.0
 license: MIT
 website: https://localsend.org/
 source-code: https://github.com/localsend/localsend
-#contact: https://github.com/thatLeaflet/localsend-snap/issues
 issues: https://github.com/thatLeaflet/localsend-snap/issues
-#donations: https://github.com/sponsors/Tienisto # can only be done on Snap Store
 type: app
 icon: snap/gui/localsend.png
 summary: Share files to nearby devices
@@ -31,12 +29,12 @@ parts:
   localsend:
     plugin: dump
     source:
-      - on amd64: https://github.com/localsend/localsend/releases/download/v$SNAPCRAFT_PROJECT_VERSION/LocalSend-$SNAPCRAFT_PROJECT_VERSION-linux-x86-64.tar.gz
-      - on arm64: https://github.com/localsend/localsend/releases/download/v$SNAPCRAFT_PROJECT_VERSION/LocalSend-$SNAPCRAFT_PROJECT_VERSION-linux-arm-64.tar.gz
+      - on amd64: https://github.com/localsend/localsend/releases/download/v$SNAPCRAFT_PROJECT_VERSION/LocalSend-$SNAPCRAFT_PROJECT_VERSION-linux-x86-64.deb
+      - on arm64: https://github.com/localsend/localsend/releases/download/v$SNAPCRAFT_PROJECT_VERSION/LocalSend-$SNAPCRAFT_PROJECT_VERSION-linux-arm-64.deb
 
 apps:
   localsend-uno:
-    command: localsend_app
+    command: usr/share/localsend_app/localsend_app
     extensions: [gnome]
     plugs:
       - home

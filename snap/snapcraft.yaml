@@ -33,7 +33,7 @@ parts:
       - on arm64: https://github.com/localsend/localsend/releases/download/v$SNAPCRAFT_PROJECT_VERSION/LocalSend-$SNAPCRAFT_PROJECT_VERSION-linux-arm-64.deb
 
 apps:
-  localsend-uno:
+  localsend:
     command: usr/share/localsend_app/localsend_app
     extensions: [gnome]
     plugs:

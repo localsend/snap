@@ -1,10 +1,10 @@
-name: localsend-uno
-title: Localsend (unofficial)
+name: localsend
+title: Localsend
 version: 1.14.0
 license: MIT
 website: https://localsend.org/
 source-code: https://github.com/localsend/localsend
-issues: https://github.com/thatLeaflet/localsend-snap/issues
+issues: https://github.com/localsend/snap
 type: app
 icon: snap/gui/localsend.png
 summary: Share files to nearby devices
@@ -12,8 +12,6 @@ description: |
   This app allows you to send files and messages over the local LAN network.
 
   In contrast to most alternatives, no external servers are needed. Everything happens locally in the wifi network.
-  
-  Note: This is an unofficial repackaging and is not endorsed by the upstream project. Additionally, after the install, you must run: `snap connect localsend-uno:network-manager`
 
 confinement: strict
 base: core24

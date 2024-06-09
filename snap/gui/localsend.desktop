@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=LocalSend
 Comment=Share files to nearby devices
-Exec=localsend-uno
+Exec=localsend
 Icon=${SNAP}/meta/gui/localsend.png
 Terminal=false
 Type=Application

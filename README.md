@@ -15,6 +15,6 @@ How to set up snapcraft
 
 How to build the snap
 - Enter a nice working directory (e.g. ~/projects)
-- Download repo: run `git clone --depth=1 https://github.com/thatLeaflet/localsend-snap.git && cd localsend-snap`
+- Download repo: run `git clone --depth=1 https://github.com/localsend/snap.git && cd ./snap`
 - Build the snap: run `SNAPCRAFT_ENABLE_EXPERIMENTAL_EXTENSIONS=1 snapcraft`
 - Install the snap: run `sudo snap install ./<file-name> --dangerous`

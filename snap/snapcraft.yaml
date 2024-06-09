@@ -38,8 +38,6 @@ apps:
   localsend-uno:
     command: usr/share/localsend_app/localsend_app
     extensions: [gnome]
-    environment:
-      HOME: "$SNAP_USER_COMMON" # without this, app configuration is lost every update
     plugs:
       - home
       - removable-media # no auto-connect

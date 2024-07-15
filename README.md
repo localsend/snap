@@ -16,7 +16,7 @@ How to set up snapcraft
 How to build the snap
 - Enter a nice working directory (e.g. ~/projects)
 - Download repo: run `git clone --depth=1 https://github.com/localsend/snap.git && cd ./snap`
-- Build the snap: run `SNAPCRAFT_ENABLE_EXPERIMENTAL_EXTENSIONS=1 snapcraft`
+- Build the snap: run `snapcraft`
 - Install the snap:
   - amd64: run `sudo snap install --dangerous ./localsend_*_amd64.snap`
   - arm64: run `sudo snap install --dangerous ./localsend_*_arm64.snap`

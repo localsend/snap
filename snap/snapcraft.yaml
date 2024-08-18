@@ -1,7 +1,7 @@
 name: localsend
 title: Localsend
 version: 1.15.3
-license: MIT
+license: Apache-2.0
 website: https://localsend.org/
 source-code: https://github.com/localsend/localsend
 issues: https://github.com/localsend/snap

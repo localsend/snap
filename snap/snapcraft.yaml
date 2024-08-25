@@ -4,7 +4,7 @@ version: 1.15.4
 license: Apache-2.0
 website: https://localsend.org/
 source-code: https://github.com/localsend/localsend
-issues: https://github.com/localsend/snap
+issues: https://github.com/localsend/localsend/issues
 type: app
 icon: snap/gui/localsend.png
 summary: Share files to nearby devices

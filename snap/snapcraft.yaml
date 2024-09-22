@@ -13,6 +13,8 @@ description: |
 
   In contrast to most alternatives, no external servers are needed. Everything happens locally in the wifi network.
 
+  Similar to Apple's AirDrop and Google's Quick Share.
+
 confinement: strict
 base: core24
 compression: lzo

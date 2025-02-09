@@ -5,4 +5,4 @@ Exec=localsend
 Icon=${SNAP}/meta/gui/localsend.png
 Terminal=false
 Type=Application
-Categories=Utilities;
+Categories=Utilities;X-GNOME-Utilities;

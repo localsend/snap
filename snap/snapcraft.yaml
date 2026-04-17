@@ -16,7 +16,7 @@ description: |
   Similar to Apple's AirDrop and Google's Quick Share.
 
 confinement: strict
-base: core24
+base: core26
 compression: lzo
 grade: stable
 platforms:

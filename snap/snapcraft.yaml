@@ -1,6 +1,6 @@
 name: localsend
 title: Localsend
-version: 1.17.0
+version: 1.18.0
 license: Apache-2.0
 website: https://localsend.org/
 source-code: https://github.com/localsend/localsend
@@ -16,7 +16,7 @@ description: |
   Similar to Apple's AirDrop and Google's Quick Share.
 
 confinement: strict
-base: core26
+base: core24
 compression: lzo
 grade: stable
 platforms:

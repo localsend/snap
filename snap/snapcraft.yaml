@@ -36,7 +36,7 @@ parts:
 
 apps:
   localsend:
-    command: usr/share/localsend_app/localsend_app
+    command: opt/localsend_app/localsend_app
     extensions: [gnome]
     plugs:
       - home

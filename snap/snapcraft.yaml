@@ -37,6 +37,10 @@ parts:
 apps:
   localsend:
     command: opt/localsend_app/localsend_app
+    # Name of the desktop file the app writes into $SNAP_USER_DATA/.config/autostart
+    # when "Autostart after login" is enabled. snapd only launches an autostart
+    # desktop file that is declared here.
+    autostart: localsend_app.desktop
     extensions: [gnome]
     plugs:
       - home

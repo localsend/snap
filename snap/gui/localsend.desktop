@@ -6,3 +6,4 @@ Icon=${SNAP}/meta/gui/localsend.png
 Terminal=false
 Type=Application
 Categories=Utility;
+StartupWMClass=org.localsend.localsend_app

@@ -37,6 +37,7 @@ parts:
 apps:
   localsend:
     command: opt/localsend_app/localsend_app
+    autostart: localsend_app.desktop
     extensions: [gnome]
     plugs:
       - home
